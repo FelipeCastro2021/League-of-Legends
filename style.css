@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* Utilities Classes */
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: #fafafa;
+  font-weight: bold;
+  font-size: 2.6rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  color: lightslategray;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.75rem;
+
+  background-color: #fafafa;
+  border: none;
+
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+/* Header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+
+  height: 60px;
+}
+
+.header-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 1.2rem;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-item {
+  font-size: 0.95rem;
+  font-weight: bold;
+
+  padding: 0.2rem 0.5rem;
+}
+
+.header-action {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+
+  color: lightskyblue;
+
+  border: 2px solid lightskyblue;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+}
+
+/* Introduction */
+#introduction {
+  background: url('https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/pt_BR/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg')
+    no-repeat center center/cover;
+
+  height: calc(100vh - 60px);
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.template {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.8rem;
+
+  color: #fafafa;
+
+  font-family: Helvetica, sans-serif;
+}
+
+/* Character */
+.character-image-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin: 15px auto 25px;
+}
+
+.character-image {
+  height: 100%;
+  flex-basis: 1000px;
+
+  display: flex;
+  flex: auto;
+}
+
+.character-text-skills {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  width: 100%;
+}
+
+.character-text {
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  gap: 1rem;
+
+  max-width: 450px;
+}
+
+.character-text h2 {
+  font-size: 1.5rem;
+}
+
+.character-text h3 {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: gray;
+}
+
+.character-text p {
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.btn.blue {
+  background-color: #0089a8;
+  color: #fafafa;
+
+  text-align: center;
+  align-self: flex-start;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+
+  width: 100%;
+}
+
+.skills img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+
+    height: 100px;
+
+    padding: 15px 0;
+  }
+
+  .character-image-text {
+    margin: 50px auto 30px;
+  }
+
+  .character-text-skills {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .skills {
+    gap: 0.4rem;
+  }
+
+  .skills img {
+    height: auto;
+  }
+}

@@ -10,6 +10,8 @@
 
 body {
   background-color: #fafafa;
+
+  font-family: 'Outfit', sans-serif;
 }
 
 /* Utilities Classes */
@@ -24,8 +26,6 @@ body {
   color: #fafafa;
   font-weight: bold;
   font-size: 2.5rem;
-
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn {
@@ -77,9 +77,11 @@ img {
   height: 60px;
 }
 
-.header-title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.logo {
+  height: 45px;
+}
 
+.header-title {
   font-size: 1.2rem;
 }
 
@@ -88,7 +90,6 @@ img {
   align-items: center;
 
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-item {
@@ -98,11 +99,38 @@ img {
   padding: 0.2rem 0.7rem;
 
   cursor: pointer;
+  transition: all 0.3s;
+
+  position: relative;
 }
 
 .header-item:hover,
 .header-title:hover {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.header-list-skills,
+.header-list-history,
+.header-list-characters {
+  display: none;
+
+  list-style: none;
+}
+
+.header-list-skills a,
+.header-list-history a,
+.header-list-characters a {
+  color: white;
+}
+
+.header-item:hover .header-list-skills,
+.header-item:hover .header-list-history,
+.header-item:hover .header-list-characters {
+  display: grid;
+  gap: 0.3rem;
+  position: absolute;
+  top: 3rem;
+  left: 1rem;
 }
 
 .header-action {
@@ -161,8 +189,6 @@ img {
   font-size: 1.8rem;
 
   color: #fafafa;
-
-  font-family: Helvetica, sans-serif;
 }
 
 /* Character */
@@ -186,6 +212,12 @@ img {
   filter: contrast(150%) sepia(15%) saturate(75%);
 }
 
+.character-image img {
+  height: 550px;
+
+  object-position: top;
+}
+
 .character-text-skills {
   display: flex;
   align-items: center;
@@ -195,8 +227,6 @@ img {
 }
 
 .character-text {
-  font-family: Arial, Helvetica, sans-serif;
-
   display: flex;
   align-content: flex-end;
   flex-direction: column;
@@ -218,7 +248,9 @@ img {
 
 .character-text p {
   line-height: 1.2rem;
-  font-size: 0.9rem;
+  font-size: 0.83rem;
+
+  color: hsl(0, 0%, 45%);
 }
 
 .btn.blue {

@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <title>Simple Website - RocketSeat</title>
+
+    <!-- Typographys -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- SEO -->
     <meta
@@ -19,14 +28,67 @@
   <body>
     <header id="header" class="container">
       <a href="index.html">
-        <h1 class="header-title">Website</h1>
+        <img
+          class="logo"
+          src="assets/Logo - Ryfer.svg"
+          alt="Logo Ryfer"
+          height="50"
+        />
       </a>
 
       <nav class="header-menu">
         <ul class="header-items">
-          <li class="header-item">Preorder</li>
-          <li class="header-item">Upcoming</li>
-          <li class="header-item">News</li>
+          <li class="header-item">
+            Characters
+            <ul class="header-list-characters">
+              <a href="#character-udyr">
+                <li>Udyr</li>
+              </a>
+              <a href="#character-chogath">
+                <li>Cho'Gath</li>
+              </a>
+              <a href="#character-maokai">
+                <li>Maokai</li>
+              </a>
+              <a href="#character-rumble">
+                <li>Rumble</li>
+              </a>
+            </ul>
+          </li>
+          <li class="header-item">
+            History
+            <ul class="header-list-history">
+              <a href="#history-udyr">
+                <li>Udyr</li>
+              </a>
+              <a href="#history-chogath">
+                <li>Cho'Gath</li>
+              </a>
+              <a href="#history-maokai">
+                <li>Maokai</li>
+              </a>
+              <a href="#history-rumble">
+                <li>Rumble</li>
+              </a>
+            </ul>
+          </li>
+          <li class="header-item">
+            Skills
+            <ul class="header-list-skills">
+              <a href="#skills-udyr">
+                <li>Udyr</li>
+              </a>
+              <a href="#skills-chogath">
+                <li>Cho'Gath</li>
+              </a>
+              <a href="#skills-maokai">
+                <li>Maokai</li>
+              </a>
+              <a href="#skills-rumble">
+                <li>Rumble</li>
+              </a>
+            </ul>
+          </li>
           <a href="#" class="header-action">Join To Comunity</a>
         </ul>
       </nav>
@@ -45,18 +107,15 @@
         <div class="character-image-text container">
           <div class="character-image">
             <img
+              id="character-udyr"
               src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg"
               alt="Udyr campeão caçador de League of Legends"
-              aria-label="Udyr, o Andarilho Espiritual, é um campeão de League of Legends
-              (LOL) lançado em 2009. Ele possui um kit de habilidades simples de
-              entender e conta com um estilo de jogo bastante convidativo para
-              jogadores interessados em se arriscar na selva de Summoner's Rift."
             />
           </div>
 
           <div class="character-text-skills">
             <div class="character-text">
-              <div>
+              <div id="history-udyr">
                 <h2>Udyr</h2>
                 <h3>O andarilho espiritual</h3>
               </div>
@@ -69,7 +128,7 @@
               <a href="#" class="btn blue">Preorder Not Availible</a>
             </div>
 
-            <div class="skills">
+            <div class="skills" id="skills-udyr">
               <img
                 src="https://static1-br.millenium.gg/entity_articles/7/64/47/@/67632-udyr-monkeysagility-orig-2-64x64-1.png"
                 alt="Habilidade do Udyr - agilidade do macaco"
@@ -108,6 +167,7 @@
         <div class="character-image-text container">
           <div class="character-image">
             <img
+              id="character-chogath"
               src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg"
               alt="Cho'Gath campeão da top lane de League of Legends"
             />
@@ -115,7 +175,7 @@
 
           <div class="character-text-skills">
             <div class="character-text">
-              <div>
+              <div id="history-chogath">
                 <h2>Cho'Gath</h2>
                 <h3>O terror do vazio</h3>
               </div>
@@ -126,7 +186,7 @@
               </p>
               <a href="#" class="btn blue">Preorder Not Availible</a>
             </div>
-            <div class="skills">
+            <div class="skills" id="skills-chogath">
               <img
                 src="https://static1-br.millenium.gg/entity_articles/1/54/21/@/65223-greenterror-tailspike-orig-2-64x64-1.png"
                 alt="Habilidade carnívoro do Cho'Gath"
@@ -161,6 +221,7 @@
         <div class="character-image-text container">
           <div class="character-image">
             <img
+              id="character-maokai"
               src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Maokai_24.jpg"
               alt="Maokai campeão da top lane de League of Legends"
             />
@@ -168,7 +229,7 @@
 
           <div class="character-text-skills">
             <div class="character-text">
-              <div>
+              <div id="history-maokai">
                 <h2>Maokai</h2>
                 <h3>O ente sinistro</h3>
               </div>
@@ -181,7 +242,7 @@
               <a href="#" class="btn blue">Preorder Not Availible</a>
             </div>
 
-            <div class="skills">
+            <div class="skills" id="skills-maokai">
               <img
                 src="https://static1-br.millenium.gg/entity_articles/0/58/80/@/66300-maokai-passive-orig-2-64x64-1.png"
                 alt="Habilidade do Maokai - Seiva mágica"
@@ -220,6 +281,7 @@
         <div class="character-image-text container">
           <div class="character-image">
             <img
+              id="character-rumble"
               src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rumble_13.jpg"
               alt="Rumble campeão da top lane de League of Legends"
             />
@@ -227,7 +289,7 @@
 
           <div class="character-text-skills">
             <div class="character-text">
-              <div>
+              <div id="history-rumble">
                 <h2>Rumble</h2>
                 <h3>A ameaça mecânica</h3>
               </div>
@@ -240,7 +302,7 @@
               <a href="#" class="btn blue">Preorder Not Availible</a>
             </div>
 
-            <div class="skills">
+            <div class="skills" id="skills-rumble">
               <img
                 src="https://static1-br.millenium.gg/entity_articles/7/60/87/@/66789-rumble-junkyard-titan1-orig-2-64x64-1.png"
                 alt="Habilidade de Rumble - Titã do ferro-velho"
@@ -269,6 +331,1008 @@
                 src="https://static1-br.millenium.gg/entity_articles/7/60/87/@/66801-rumblecarpetbomb-orig-2-64x64-1.png"
                 alt="Habilidade de Rumble - O equalizador"
                 title="O Equalizador"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              id="character-rumble"
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_9.jpg"
+              alt="Rumble campeão da top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div id="history-rumble">
+                <h2>Fizz</h2>
+                <h3>O trapaceiro das Marés</h3>
+              </div>
+              <p>
+                Rumble é um jovem inventor irritadiço. Usando nada além de suas
+                próprias mãos e uma pilha de sucata, o yordle briguento
+                construiu um mecha colossal montado com um arsenal de arpões
+                eletrificados e foguetes incendiários.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills" id="skills-rumble">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://besthqwallpapers.com/Uploads/7-2-2020/120723/thumb2-garen-moba-league-of-legends-2020-games-warrior.jpg"
+              alt="Garen campeão da top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Garen</h2>
+                <h3>O poder de demacia</h3>
+              </div>
+              <p>
+                Um guerreiro nobre e orgulhoso, Garen faz parte da Vanguarda
+                Destemida. Popular entre seus companheiros e respeitado o
+                suficiente por seus inimigos, sua reputação é nada mais do que o
+                esperado de um herdeiro da prestigiosa família Stemmaguarda.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/6/55/56/@/65538-garen-passive-orig-2-64x64-1.png"
+                alt="Habilidade do Garen - Perseverança"
+                title="Perseverança"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/6/55/56/@/65541-garenq-orig-2-64x64-1.png"
+                alt="Habilidade do Garen - Golpe decisivo"
+                title="Golpe Decisivo"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/6/55/56/@/65544-garenw-orig-2-64x64-1.png"
+                alt="Habilidade do Garen - Coragem"
+                title="Coragem"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/6/55/56/@/65547-garene-orig-2-64x64-1.png"
+                alt="Habilidade Garen - Julgamento"
+                title="Julgamento"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade do Garen - Justiça de Demácia"
+                title="Justiça de Demácia"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_13.jpg"
+              alt="Gnar campeão da top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Gnar</h2>
+                <h3>O yordle pré-histórico</h3>
+              </div>
+              <p>
+                Gnar é um yordle primitivo cujas artimanhas brincalhonas podem
+                irromper em uma raiva infantil em um instante, transformando-o
+                em uma besta gigantesca determinada a destruir.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/5/55/65/@/65559-gnar-passive-orig-2-64x64-1.png"
+                alt="Habilidade do Gnar - Gene de raiva"
+                title="Gene de Raiva"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/5/55/65/@/65562-gnarq-orig-2-64x64-1.png"
+                alt="Habilidade do Gnar - Lança bumerangue"
+                title="Lança Bumerangue"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/5/55/65/@/65565-gnarw-orig-2-64x64-1.png"
+                alt="Habilidade do Gnar - Hyper"
+                title="Hyper"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/5/55/65/@/65568-gnare-orig-2-64x64-1.png"
+                alt="Habilidade do Gnar - Saltar"
+                title="Saltar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/5/55/65/@/65571-gnarr-orig-2-64x64-1.png"
+                alt="Habilidade do Gnar - GNAR!"
+                title="GNAR!"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_6.jpg"
+              alt="Hecarim campeão da jungle de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Hecarim</h2>
+                <h3>A sombra da guerra</h3>
+              </div>
+              <p>
+                Hecarim é a fusão espectral de homem e animal, amaldiçoado a
+                cavalgar entre as almas dos vivos por toda a eternidade. Quando
+                as Ilhas das Bênçãos caíram nas sombras, esse cavaleiro
+                orgulhoso foi obliterado pelas energias destrutivas da Ruína.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/2/55/92/@/65622-hecarim-passive-orig-2-64x64-1.png"
+                alt="Habilidade do Hecarim - Caminho da guerra"
+                title="Caminho da Guerra"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/2/55/92/@/65625-hecarimrapidslash-orig-2-64x64-1.png"
+                alt="Habilidade do Hecarim - Rampage"
+                title="Lança Bumerangue"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/2/55/92/@/65628-hecarimw-orig-2-64x64-1.png"
+                alt="Habilidade do Hecarim - Espírito do medo"
+                title="Espírito do Medo"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/2/55/92/@/65631-hecarimramp-orig-2-64x64-1.png"
+                alt="Habilidade do Hecarim - Carga devastadora"
+                title="Carga Devastadora"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/2/55/92/@/65634-hecarimult-orig-2-64x64-1.png"
+                alt="Habilidade do Hecarim - Ataque das sombras"
+                title="Ataque das Sombras"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_5.jpg"
+              alt="Heimerdinger campeão da mid lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Heimerdinger</h2>
+                <h3>O invetor idolatrado</h3>
+              </div>
+              <p>
+                Um cientista brilhante, mesmo que excêntrico, o Professor Cecil
+                B. Heimerdinger é um dos inventores mais inovadores e estimados
+                que Piltover já conheceu.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_15.jpg"
+              alt="Jayce campeão do top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Jayce</h2>
+                <h3>O defensor do amanhã</h3>
+              </div>
+              <p>
+                Jayce é um brilhante inventor que dedicou sua vida a defender
+                Piltover e sua implacável busca pelo progresso. Com seu martelo
+                hextech transformador em mãos, Jayce usa sua força, coragem e
+                considerável inteligência para proteger sua cidade natal.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kennen_6.jpg"
+              alt="Kennen campeão do top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Kennen</h2>
+                <h3>O coração da tempestade</h3>
+              </div>
+              <p>
+                Mais do que um protetor rápido como um raio do equilíbrio
+                ioniano, Kennen é o único yordle membro da Kinkou. Apesar da sua
+                estatura pequena e peluda, ele anseia por ir contra qualquer
+                ameaça com uma tempestade desenfreada de shurikens.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_6.jpg"
+              alt="Malphite campeão do top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Malphite</h2>
+                <h3>O fragmento do monolito</h3>
+              </div>
+              <p>
+                Uma criatura gigantesca de pedra viva, Malphite pena para impor
+                ordem abençoada em um mundo caótico. Nascido como um fragmento
+                servil de um obelisco de outro mundo conhecido como Monolito,
+                ele usou sua tremenda força elemental para manter e proteger
+                seu.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Mordekaiser_6.jpg"
+              alt="Mordekaiser campeão do top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Mordekaiser</h2>
+                <h3>O revenã de ferro</h3>
+              </div>
+              <p>
+                Morto e renascido duas vezes, Mordekaiser é um cruel comandante
+                de uma época perdida. Ele usa a arte da necromancia para
+                aprisionar almas e torná-las submissas pela eternidade.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_4.jpg"
+              alt="Nutilus campeão de suporte da bot lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Nautilus</h2>
+                <h3>O titã das profundezas</h3>
+              </div>
+              <p>
+                O golias armadurado conhecido como Nautilus, uma lenda
+                solitária, tão velha quantos as primeiras docas que afundaram em
+                Águas de Sentina, vaga pelas águas escuras da costa das Ilhas da
+                Chama Azul.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sejuani_2.jpg"
+              alt="Sejuani campeão da top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Sejuani</h2>
+                <h3>A fúria do norte</h3>
+              </div>
+              <p>
+                Sejuani é a mãe de guerra Glacinata brutal e implacável da Garra
+                do Inverno, uma das tribos mais temidas de Freljord. A
+                sobrevivência de seu povo é uma batalha constante e desesperada
+                contra os elementos, forçando-os a pilhar noxianos, demacianos.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sion_5.jpg"
+              alt="Sion campeão da top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Sion</h2>
+                <h3>O colosso morto-vivo</h3>
+              </div>
+              <p>
+                Um herói de guerra de uma era passada, Sion era reverenciado em
+                Noxus por ter estrangulado a vida de um rei demaciano com suas
+                próprias mãos. Mas o esquecimento lhe foi negado quando foi
+                ressuscitado para servir seu império, mesmo na sua morte.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_6.jpg"
+              alt="Veigar campeão da mid lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Veigar</h2>
+                <h3>O pequeno mestre do mal</h3>
+              </div>
+              <p>
+                Veigar, um mestre entusiasta da feitiçaria das trevas, aderiu a
+                poderes dos quais poucos mortais se aproximam. Um habitante
+                inconformado de Bandópolis, ele desejava ultrapassar as
+                limitações da magia yordle, se voltando, então, para os textos
+                arcanos.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_6.jpg"
+              alt="Varus campeão atirador da bot lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Varus</h2>
+                <h3>A flecha da vingança</h3>
+              </div>
+              <p>
+                Um dos antigos darkin, Varus era um assassino mortal que amava
+                atormentar seus inimigos, levando-os quase à insanidade antes de
+                disparar a flecha mortal.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viktor_3.jpg"
+              alt="Viktor campeão mago da mid lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Viktor</h2>
+                <h3>O arauto das máquinas</h3>
+              </div>
+              <p>
+                Viktor, o arauto de uma nova era de tecnologia, devotou sua vida
+                ao avanço da humanidade. Um idealista que busca elevar o povo de
+                Zaun a um novo nível de compreensão, ele acredita que somente ao
+                aceitar a evolução gloriosa da tecnologia será possível.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_6.jpg"
+              alt="Volibear campeão da top lane de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Volibear</h2>
+                <h3>A tempestade implacável</h3>
+              </div>
+              <p>
+                Para aqueles que ainda o veneram, Volibear é a forma manifestada
+                da tempestade. Destrutivo, selvagem e implacavelmente obstinado,
+                ele já existia antes mesmo que os mortais andassem sobre a
+                tundra de Freljord, protegendo as terras que ele e seus irmãos.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="character">
+        <div class="character-image-text container">
+          <div class="character-image">
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ziggs_6.jpg"
+              alt="Ziggs campeão presente em todas as lanes de League of Legends"
+            />
+          </div>
+
+          <div class="character-text-skills">
+            <div class="character-text">
+              <div>
+                <h2>Ziggs</h2>
+                <h3>O especialista em hexplosivos</h3>
+              </div>
+              <p>
+                O yordle Ziggs, amante de grandes bombas e pavios curtos, é uma
+                força explosiva da natureza. Já entediado com sua vida
+                previsível como assistente de um inventor de Piltover, ele fez
+                amizade com uma bombardeira louca de cabelo azul chamada Jinx.
+              </p>
+              <a href="#" class="btn blue">Preorder Not Availible</a>
+            </div>
+
+            <div class="skills">
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65475-fizz-p-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lutador ligeiro"
+                title="Lutador ligeiro"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65478-fizzq-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Ataque do ouriço"
+                title="Ataque do Ouriço"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65481-fizzw-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Tridente da pedra do mar"
+                title="Tridente da Pedra do Mar"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65484-fizze-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Bricalhão"
+                title="Brincalhão"
+              />
+
+              <img
+                src="https://static1-br.millenium.gg/entity_articles/9/55/29/@/65487-fizzr-orig-2-64x64-1.png"
+                alt="Habilidade de Fizz - Lançar isca"
+                title="Lançar Isca"
               />
             </div>
           </div>

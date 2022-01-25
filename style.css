@@ -109,28 +109,48 @@ img {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.header-list-skills,
-.header-list-history,
-.header-list-characters {
+.header-item ul {
   display: none;
 
+  position: absolute;
+
   list-style: none;
+  padding: 0.2rem 0.7rem 0.5rem;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  z-index: 2;
 }
 
-.header-list-skills a,
+.header-item:hover ul {
+  display: block;
+}
+
+.header-item ul li {
+  padding: 0.8rem 0.5rem;
+
+  position: relative;
+}
+
+.header-item ul li:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: lightskyblue;
+
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.header-item ul li:hover::after {
+  width: 30%;
+}
+
+.header-item ul .header-list-skills a,
 .header-list-history a,
 .header-list-characters a {
   color: white;
-}
-
-.header-item:hover .header-list-skills,
-.header-item:hover .header-list-history,
-.header-item:hover .header-list-characters {
-  display: grid;
-  gap: 0.3rem;
-  position: absolute;
-  top: 3rem;
-  left: 1rem;
 }
 
 .header-action {

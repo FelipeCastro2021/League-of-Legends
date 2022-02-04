@@ -347,4 +347,8 @@ img {
     flex: 1 1 100%;
     height: auto;
   }
+
+  .character-image img {
+    height: auto;
+  }
 }
